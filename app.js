@@ -1,6 +1,6 @@
 const {app, BrowserWindow} = require('electron')
-const url = require("url");
-const path = require("path");
+const url = require('url');
+const path = require('path');
 
 let mainWindow
 
@@ -20,8 +20,9 @@ function createWindow () {
       slashes: true
     })
   );
+  mainWindow.setMinimumSize(300, 200);
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
 
   mainWindow.on('closed', function () {
     mainWindow = null
