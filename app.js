@@ -21,6 +21,7 @@ function createWindow () {
     })
   );
   mainWindow.setMinimumSize(300, 200);
+  mainWindow.setMenuBarVisibility(false);
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
 
