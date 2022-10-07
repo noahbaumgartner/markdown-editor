@@ -1,5 +1,5 @@
 # Markdown Editor
-This is a simple markdown editor which has been made with `Angular` and `Electron.js`.
+This is a simple markdown editor which has been made with `tailwindcss`, `Angular` and `Electron.js`.
 # Setup
 To set up follow the following steps:
 1. Clone repository
